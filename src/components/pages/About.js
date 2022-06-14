@@ -1,9 +1,12 @@
 import React from 'react';
+import coverImg from "../../img/aboutMe.jpeg"
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className='my-5'>
+         <h1>Who am I?</h1>
+         <img src={coverImg} className="my-2" style={{ width: "100%" }} alt="cover" />
+     
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
