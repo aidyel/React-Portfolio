@@ -3,7 +3,10 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
+         <div className="container">
+        <div className="row">
+            <div className="col-sm"></div>
+      <h1>Resume</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -17,5 +20,8 @@ export default function Resume() {
         fames ac ante ipsum primis in faucibus.
       </p>
     </div>
+    </div>
+    </div>
+    
   );
 }

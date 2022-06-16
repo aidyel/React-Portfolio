@@ -1,8 +1,9 @@
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
+img {
   max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
+  max-height: 100%;
+}
+
+.profile {
+  height: auto;
+  width: 50px;
 }
