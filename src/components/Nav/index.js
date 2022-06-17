@@ -5,6 +5,15 @@ function NavTabs({ currentPage, handlePageChange }) {
         <nav className="navbar navbar-expand-sm bg-light">
     
             <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+                    <a
+                        href="/"
+                        onClick={() => handlePageChange('Home')}
+                        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+
+                        Home
+                    </a>
+                </li>
                 <li className="nav-item">
                     <a
                         href="#About"
