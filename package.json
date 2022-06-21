@@ -1,5 +1,5 @@
 {
-  "hompage": " https://aidyel.github.io/React-Portfolio",
+  "homepage": " https://aidyel.github.io/React-Portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,9 +20,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
- 
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",

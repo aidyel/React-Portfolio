@@ -1,5 +1,7 @@
 
 import React from "react";
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -12,8 +14,10 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
+    <Router>
     <div>
-             <Container></Container>
+      <Routes>
+      <Container></Container>
       <main>
 
         <About></About>
@@ -24,7 +28,10 @@ function App() {
       </main>
 
       <Footer></Footer>
+      </Routes>
     </div>
+  
+    </Router>
   )
 }
 
