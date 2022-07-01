@@ -1,11 +1,11 @@
 import React from 'react';
-import coverImg from "../../img/mepicture.jpeg"
+import coverImg from "../../img/picturesOfMe/mepicture.jpeg"
 
 export default function About() {
   return (
-    <div className='my-5 text-center'>
+    <div className='my-5 text-center text-light'>
          <h1>Who am I?</h1>
-         <img src={coverImg} className="my-2 profile" style={{ width: "50%" }} alt="cover" />
+         {/* <img src={coverImg} className="my-2 profile rounded" style={{ width: "50%" }} alt="cover" /> */}
      
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

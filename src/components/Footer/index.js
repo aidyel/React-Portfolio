@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="page-footer">
-      <div className="text-center">
+      <div className="text-center text-light">
         <p>
           <strong>My Full Stack Development Portfolio</strong> {" "}
         

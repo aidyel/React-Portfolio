@@ -3,7 +3,7 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-         <div className="container">
+         <div className="container text-light">
         <div className="row">
             <div className="col-sm"></div>
       <h1>Resume</h1>
